@@ -4,5 +4,5 @@ from datetime import datetime
 # Create your views here.
 def index(request):
     return render(request, 'newyear/index.html',{
-        date: datetime.datetime.now()
+        "date": datetime.now()
     })
