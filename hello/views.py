@@ -23,4 +23,4 @@ def kin(request):
 
 # Greeting anyone
 def greet(request, name):
-    return render(request, "hello/index.htm;")
+    return render(request, "hello/index.html", {"name": name})
